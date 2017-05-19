@@ -1,11 +1,11 @@
 
 <form action="Lee02.php">
 
-<input type = "text" name = "xx" id ="xx">
+<input type = "text" name = "xx" id ="x">
 
 +
 
-<input type = "text" name = "yy" id ="yy">
+<input type = "text" name = "yy" id ="y">
 
 <input = type = "submit" value = "=" >
 

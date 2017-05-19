@@ -6,6 +6,13 @@
  * Time: 下午 02:09
  */
 
-$x_GET["xx"];
-$y_GET["yy"];
-echo x;
+$x= $_GET["xx"];
+$y= $_GET["yy"];
+
+
+$r = $x + $y;
+
+echo "$x + $y = $r<br>";
+
+$weight = 80;
+echo "brad + weight = {$weight}kg" ;
