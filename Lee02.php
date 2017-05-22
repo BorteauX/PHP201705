@@ -14,5 +14,3 @@ $r = $x + $y;
 
 echo "$x + $y = $r<br>";
 
-$weight = 80;
-echo "brad + weight = {$weight}kg" ;

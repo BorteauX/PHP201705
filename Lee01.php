@@ -1,3 +1,23 @@
+<?php
+$x= $_GET["xx"];
+$y= $_GET["yy"];
+
+if(isset($x= $_GET["xx"];)){
+    $x= $_GET["xx"];
+    $y= $_GET["yy"];
+    $r = $x + $y;
+}
+
+
+
+
+
+echo "$x + $y = $r";
+
+?>
+
+
+
 
 <form action="Lee02.php">
 
@@ -9,4 +29,7 @@
 
 <input = type = "submit" value = "=" >
 
+    <?php
+
+    ?>
 </form>
