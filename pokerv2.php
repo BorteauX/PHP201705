@@ -1,4 +1,5 @@
 <?php
+<?php
 $poker = array();
 for ($i = 0; $i < 51; $i++) {
 
@@ -24,5 +25,5 @@ for ($i = 0; $i < 51; $i++) {
 
 
 
-echo $poker[$i] . '<br>';
+    echo $poker[$i] . '<br>';
 }
