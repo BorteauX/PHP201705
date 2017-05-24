@@ -1,8 +1,30 @@
 <?php
-$a[]=6;
-$r = rand(1,6);
+$poker = range(0,51);
+shuffle($poker);
+foreach($poker as $card){
+    echo $card.'<br>';
+}
+echo '<hr>';
 
-$a[5] = $r;
+//發四個玩家
 
+foreach ($poker as $i => $value) {
+    $player[$i % 4][(int)($i / 4)] = $value;
 
-echo "value$a[5]";
+}
+?>
+
+<table border="1" width="100%">
+    <?php
+        foreach($player as $value){
+
+            echo '<tr>';
+            foreach ($sb as $card){
+                echo "<td>{$card}</td>";
+            }
+            echo '</tr>';
+        }
+
+    ?>
+
+</table>
